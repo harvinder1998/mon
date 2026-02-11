@@ -1,0 +1,26 @@
+{
+  "name": "acca-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi CMS for ACCA Study Hub",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "5.0.6",
+    "@strapi/plugin-users-permissions": "5.0.6",
+    "@strapi/plugin-i18n": "5.0.6",
+    "pg": "^8.13.1",
+    "better-sqlite3": "^11.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  }
+}
